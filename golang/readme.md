@@ -80,6 +80,9 @@ env GOOS=windows GOARCH=amd64 CGO_ENABLED=1 CC=x86_64-w64-mingw32-gcc go build -
 
 
 ## TODO
+- implement arbitrary length xor function
+- implement AES decryption
+- implement RC4 decryption
 - check out calling shellcode by casting alloc mem to function pointer (https://stackoverflow.com/questions/3601796/can-we-have-function-pointers-in-go)
 - look into code signing with SignTool.exe replacements on linux like [signcode](https://linux.die.net/man/1/signcode) and [osslsigncode](https://stackoverflow.com/questions/18287960/signing-windows-application-on-linux-based-distros)
 - look into tool to add manifest from linux
